@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidLessons.iml" filepath="$PROJECT_DIR$/AndroidLessons.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/track1_layout/track1_layout.iml" filepath="$PROJECT_DIR$/track1_layout/track1_layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/track2_practice/track2_practice.iml" filepath="$PROJECT_DIR$/track2_practice/track2_practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/track2_practice2/track2_practice2.iml" filepath="$PROJECT_DIR$/track2_practice2/track2_practice2.iml" />
     </modules>
   </component>
 </project>
