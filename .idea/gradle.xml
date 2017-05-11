@@ -10,8 +10,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/track1_layout" />
+            <option value="$PROJECT_DIR$/track2_assessment" />
             <option value="$PROJECT_DIR$/track2_practice" />
             <option value="$PROJECT_DIR$/track2_practice2" />
+            <option value="$PROJECT_DIR$/track3_practice" />
+            <option value="$PROJECT_DIR$/track3_practice2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
