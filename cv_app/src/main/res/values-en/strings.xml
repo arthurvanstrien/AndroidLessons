@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="introductionText">Hello, I am Arthur en this is my CV. Wonderfull to see that you are interested in me. If you look down below, you can find everything about me. In the case that you still have questions, you can contact me at arthurvanstrien@gmail.com.</string>
+    <string name="menuItemTitle">Menu item</string>
+</resources>

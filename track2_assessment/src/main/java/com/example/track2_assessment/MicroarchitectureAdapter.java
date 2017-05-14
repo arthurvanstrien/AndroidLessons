@@ -23,11 +23,10 @@ public class MicroarchitectureAdapter extends ArrayAdapter<Microarchitecture> {
     public View getView(int position, View convertView, ViewGroup parent)
     {
         Microarchitecture microarchitectures = getItem(position);
-
         if(convertView == null)
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_micro_architecture_list_view, parent, false);
 
-        TextView lvClock = (TextView) convertView.findViewById(R.id.);
+        //TextView lvClock = (TextView) convertView.findViewById(R.id.);
 
         //NIET AF.
 
