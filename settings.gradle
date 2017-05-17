@@ -1,1 +1,1 @@
-include ':app', ':track1_layout', ':track2_practice', ':track2_practice2', ':track2_assessment', ':track3_practice', ':track3_practice2', ':cv_app'
+include ':app', ':track1_layout', ':track2_practice', ':track2_practice2', ':track2_assessment', ':track3_practice', ':track3_practice2', ':cv_app', ':remotecontrol'

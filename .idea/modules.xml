@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidLessons.iml" filepath="$PROJECT_DIR$/AndroidLessons.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cv_app/cv_app.iml" filepath="$PROJECT_DIR$/cv_app/cv_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remotecontrol/remotecontrol.iml" filepath="$PROJECT_DIR$/remotecontrol/remotecontrol.iml" />
       <module fileurl="file://$PROJECT_DIR$/track1_layout/track1_layout.iml" filepath="$PROJECT_DIR$/track1_layout/track1_layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/track2_assessment/track2_assessment.iml" filepath="$PROJECT_DIR$/track2_assessment/track2_assessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/track2_practice/track2_practice.iml" filepath="$PROJECT_DIR$/track2_practice/track2_practice.iml" />
