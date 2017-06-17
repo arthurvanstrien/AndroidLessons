@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\AndroidLessons\\lampapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\AndroidStudioProjects\\AndroidLessons\\lampapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\AndroidStudio\\AndroidLessons\\lampapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "E:\\AndroidStudio\\AndroidLessons\\lampapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AndroidLessons\\lampapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "D:\\AndroidStudioProjects\\AndroidLessons\\lampapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\AndroidStudio\\AndroidLessons\\lampapp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\AndroidStudio\\AndroidLessons\\lampapp\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

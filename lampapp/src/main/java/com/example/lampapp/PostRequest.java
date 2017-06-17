@@ -2,10 +2,8 @@ package com.example.lampapp;
 
 import android.os.AsyncTask;
 import android.util.Log;
-
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.ObjectInput;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
@@ -17,31 +15,22 @@ import java.net.URL;
 
 public class PostRequest extends AsyncTask<String, Void, Void>
 {
-    String value;
-    URL url;
+    private String value;
+    private int number;
+    private URL url;
 
-    public PostRequest(URL url)
+    public PostRequest(URL url, int number, boolean value)
     {
-        Log.d("Debugging", "Post Request Constructor");
-
-    }
-
-    protected void preExecute(URL url)
-    {
-        Log.d("Debugging", "On Post Execute");
-        this.value = "true";
+        this.value = Boolean.toString(value);
+        this.number = number;
         this.url = url;
     }
 
     @Override
     protected Void doInBackground(String... params)
     {
-        Log.d("Debugging", "Do in background");
-
         try
         {
-            Log.d("Debugging", "Creating URL connection");
-
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setRequestProperty("USER-AGENT", "None");
@@ -49,11 +38,9 @@ public class PostRequest extends AsyncTask<String, Void, Void>
             connection.connect();
 
             String body = "{";
-            body += "\"number\":\"1\"";
+            body += "\"number\":\"" + number + "\",";
             body += "\"value\":\"" + value + "\"";
             body += "}";
-
-            Log.d("Debugging", "Creating output stream");
 
             OutputStream outputStream = connection.getOutputStream();
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
@@ -62,14 +49,15 @@ public class PostRequest extends AsyncTask<String, Void, Void>
             writer.flush();
             writer.close();
             outputStream.close();
+            int responseCode = connection.getResponseCode();
+            if(responseCode != 200)
+                //do something when request is not fulfilled.
 
-            Log.d("Debugging", "Closing output stream");
+            connection.disconnect();
         }
         catch (IOException e)
         {
             Log.d("Debugging", "URL CONNECTION FAILED!");
-            Log.d("Debugging", e.getMessage());
-
             e.printStackTrace();
         }
 

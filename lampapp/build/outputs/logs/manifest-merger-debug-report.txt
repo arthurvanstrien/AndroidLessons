@@ -1,87 +1,91 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:1-16:12
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:1-18:12
 	package
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:70-99
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:70-99
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:4:5-83
+	android:name
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:4:5-14:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\4aea652bdefdcb897f18a2c9c422e9d16b6b01bf\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\8b2b50fef6efa359d69657e4a8c3d4a8aa103a5e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\71830baaa486f5e70b7006244f2915fda503ccfa\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\c6a2fac97e52f75a8247af8b54f45c17ead85e6c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\292855c496581905ef6bc2de589bbca302e185d7\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\4962534a11719512994f3bcfc7655197762859ee\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\57e89be70025280674cd2999e7a8c6ae7c49232d\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\af0005677970c4e918eef3f51ca4e0e67584f5a2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Arthur\.android\build-cache\a85c89d1d86ab8bf2681bd190bdac4613f6ac332\output\AndroidManifest.xml:9:5-20
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:6:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\ea0ea5599880df5c539d89c748a88cc3c9c1f927\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\9d44abda3c07ea5fcee1db3e33cf581381a0f27a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\803a0dddadd596d6c8d4a9e2effa1668ff16b576\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\a5202484a466e54c2de7ed5c01933f578a027871\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\ad7456305f6160edf1c58fc24075364332ff7e79\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\965dd706d452063e35558194421c9a25d1c6b724\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\e25c6e4cb06046b1339889bfcd6f97afa1579c2c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\731c756ce35d9cffa1d6589a654384ae9d3e6962\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Arthur\.android\build-cache\6f6eedb4dd2da236cae6998fd97a6f91544757fb\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:5:9-41
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:7:9-41
 	android:supportsRtl
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:8:9-35
 	android:roundIcon
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:5:42-87
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:7:42-87
 	android:allowBackup
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:4:18-44
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:6:18-44
 	android:icon
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:4:45-79
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:6:45-79
 	android:theme
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:6:36-67
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:8:36-67
 activity#com.example.lampapp.MainActivity
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:7:9-13:20
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:10:9-16:20
 	android:name
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:7:19-47
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:10:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:8:13-12:29
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:11:13-15:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:9:17-69
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:12:17-69
 	android:name
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:9:25-66
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:12:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:11:17-77
+ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml:11:27-74
+		ADDED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml:14:27-74
 uses-sdk
-INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\4aea652bdefdcb897f18a2c9c422e9d16b6b01bf\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\8b2b50fef6efa359d69657e4a8c3d4a8aa103a5e\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\71830baaa486f5e70b7006244f2915fda503ccfa\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\c6a2fac97e52f75a8247af8b54f45c17ead85e6c\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\292855c496581905ef6bc2de589bbca302e185d7\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\4962534a11719512994f3bcfc7655197762859ee\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\57e89be70025280674cd2999e7a8c6ae7c49232d\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\af0005677970c4e918eef3f51ca4e0e67584f5a2\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Arthur\.android\build-cache\a85c89d1d86ab8bf2681bd190bdac4613f6ac332\output\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\ea0ea5599880df5c539d89c748a88cc3c9c1f927\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\9d44abda3c07ea5fcee1db3e33cf581381a0f27a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\803a0dddadd596d6c8d4a9e2effa1668ff16b576\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\a5202484a466e54c2de7ed5c01933f578a027871\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\ad7456305f6160edf1c58fc24075364332ff7e79\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\965dd706d452063e35558194421c9a25d1c6b724\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\e25c6e4cb06046b1339889bfcd6f97afa1579c2c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\731c756ce35d9cffa1d6589a654384ae9d3e6962\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Arthur\.android\build-cache\6f6eedb4dd2da236cae6998fd97a6f91544757fb\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudio\AndroidLessons\lampapp\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\4aea652bdefdcb897f18a2c9c422e9d16b6b01bf\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\8b2b50fef6efa359d69657e4a8c3d4a8aa103a5e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\71830baaa486f5e70b7006244f2915fda503ccfa\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\c6a2fac97e52f75a8247af8b54f45c17ead85e6c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\292855c496581905ef6bc2de589bbca302e185d7\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\4962534a11719512994f3bcfc7655197762859ee\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\57e89be70025280674cd2999e7a8c6ae7c49232d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\af0005677970c4e918eef3f51ca4e0e67584f5a2\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Arthur\.android\build-cache\ea0ea5599880df5c539d89c748a88cc3c9c1f927\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Arthur\.android\build-cache\9d44abda3c07ea5fcee1db3e33cf581381a0f27a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Arthur\.android\build-cache\803a0dddadd596d6c8d4a9e2effa1668ff16b576\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Arthur\.android\build-cache\a5202484a466e54c2de7ed5c01933f578a027871\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Arthur\.android\build-cache\ad7456305f6160edf1c58fc24075364332ff7e79\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\965dd706d452063e35558194421c9a25d1c6b724\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Arthur\.android\build-cache\e25c6e4cb06046b1339889bfcd6f97afa1579c2c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Arthur\.android\build-cache\731c756ce35d9cffa1d6589a654384ae9d3e6962\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\4590f7c1bec70217a2bbb593b9f7b5b6d46b075f\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Arthur\.android\build-cache\b312722c0f604e5f084d84931ce21583b5d82f0f\output\AndroidManifest.xml:26:9-47

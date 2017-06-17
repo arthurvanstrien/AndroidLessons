@@ -1,34 +1,43 @@
 package com.example.lampapp;
 
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ToggleButton;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity
 {
-    Button lampButton1;
-    Button lampButton2;
-    Button lampButton3;
-    Button lampButton4;
-    Button lampButton5;
-    Button lampButton6;
-    Button lampButton7;
-    Button lampButton8;
-    Button lampButton9;
-    Button lampButton10;
+    private Button lampButton1;
+    private Button lampButton2;
+    private Button lampButton3;
+    private Button lampButton4;
+    private Button lampButton5;
+    private Button lampButton6;
+    private Button lampButton7;
+    private Button lampButton8;
+    private Button lampButton9;
+    private Button lampButton10;
+
+    private boolean lampButtonState1;
+    private boolean lampButtonState2;
+    private boolean lampButtonState3;
+    private boolean lampButtonState4;
+    private boolean lampButtonState5;
+    private boolean lampButtonState6;
+    private boolean lampButtonState7;
+    private boolean lampButtonState8;
+    private boolean lampButtonState9;
+    private boolean lampButtonState10;
 
     private String[] urls = new String[]
-            {
-                    "http://192.168.1.20:8080",
-                    "http://192.168.0.186"
-            };
+    {
+            "http://192.168.1.20:8080",
+            "http://192.168.0.186"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -36,19 +45,9 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("Debugging", "Program Started");
-
-        //newPostESP8266Task(relais1, relais2).execute(urls);
-
         try
         {
             final URL url = new URL(urls[0]);
-
-            Log.d("Debugging", "URL Created");
-            Log.d("Debugging", urls[0]);
-
-            //Initialise the buttons that toggle the lamps.
-            //new Buttons(url);
 
             lampButton1 = (ToggleButton) findViewById(R.id.lampToggle1);
             lampButton2 = (ToggleButton) findViewById(R.id.lampToggle2);
@@ -61,25 +60,31 @@ public class MainActivity extends AppCompatActivity
             lampButton9 = (ToggleButton) findViewById(R.id.lampToggle9);
             lampButton10 = (ToggleButton) findViewById(R.id.lampToggle10);
 
-            Log.d("Debugging", "Created lampbuttons");
+            lampButtonState1 = false;
+            lampButtonState2 = false;
+            lampButtonState3 = false;
+            lampButtonState4 = false;
+            lampButtonState5 = false;
+            lampButtonState6 = false;
+            lampButtonState7 = false;
+            lampButtonState8 = false;
+            lampButtonState9 = false;
+            lampButtonState10 = false;
 
             lampButton1.setOnClickListener(new View.OnClickListener()
             {
                 @Override
                 public void onClick(View v)
                 {
-                    Log.d("Debugging", "Button one pressed!");
-
-                    if(lampButton1.isEnabled())
+                    if(lampButtonState1)
                     {
-                        Log.d("Debugging", "Enabled");
-                        new PostRequest(url);
-
+                        new PostRequest(url, 1, false).execute();
+                        lampButtonState1 = false;
                     }
                     else
-                        {
-                        Log.d("Debugging", "Disabled");
-                        new PostRequest(url);
+                    {
+                        new PostRequest(url, 1, true).execute();
+                        lampButtonState1 = true;
                     }
                 }
             });
@@ -89,7 +94,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState2)
+                    {
+                        new PostRequest(url, 2, false).execute();
+                        lampButtonState2 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 2, true).execute();
+                        lampButtonState2 = true;
+                    }
                 }
             });
 
@@ -98,7 +112,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState3)
+                    {
+                        new PostRequest(url, 3, false).execute();
+                        lampButtonState3 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 3, true).execute();
+                        lampButtonState3 = true;
+                    }
                 }
             });
 
@@ -107,7 +130,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState4)
+                    {
+                        new PostRequest(url, 4, false).execute();
+                        lampButtonState4 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 4, true).execute();
+                        lampButtonState4 = true;
+                    }
                 }
             });
 
@@ -116,7 +148,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState5)
+                    {
+                        new PostRequest(url, 5, false).execute();
+                        lampButtonState5 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 5, true).execute();
+                        lampButtonState5 = true;
+                    }
                 }
             });
 
@@ -125,7 +166,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState6)
+                    {
+                        new PostRequest(url, 6, false).execute();
+                        lampButtonState6 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 6, true).execute();
+                        lampButtonState6 = true;
+                    }
                 }
             });
 
@@ -134,7 +184,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState7)
+                    {
+                        new PostRequest(url, 7, false).execute();
+                        lampButtonState7 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 7, true).execute();
+                        lampButtonState7 = true;
+                    }
                 }
             });
 
@@ -143,7 +202,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState8)
+                    {
+                        new PostRequest(url, 8, false).execute();
+                        lampButtonState8 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 8, true).execute();
+                        lampButtonState8 = true;
+                    }
                 }
             });
 
@@ -152,7 +220,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState9)
+                    {
+                        new PostRequest(url, 9, false).execute();
+                        lampButtonState9 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 9, true).execute();
+                        lampButtonState9 = true;
+                    }
                 }
             });
 
@@ -161,7 +238,16 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(View view)
                 {
-
+                    if(lampButtonState10)
+                    {
+                        new PostRequest(url, 10, false).execute();
+                        lampButtonState10 = false;
+                    }
+                    else
+                    {
+                        new PostRequest(url, 10, true).execute();
+                        lampButtonState10 = true;
+                    }
                 }
             });
         }

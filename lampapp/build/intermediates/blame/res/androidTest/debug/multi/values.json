@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudioProjects\\AndroidLessons\\lampapp\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\AndroidStudio\\AndroidLessons\\lampapp\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Arthur\\.android\\build-cache\\2c1721187df5215788a196dcdec0726d13808e8b\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Arthur\\.android\\build-cache\\59ef45c7e4a7ae994d0327a2035e3553cb550db0\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
