@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".HobbyAndInterest">
         </activity>
+        <activity android:name=".Skills">
+        </activity>
     </application>
 
 </manifest>
