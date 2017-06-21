@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity
         menuArrayList.add(new MenuListItem(R.string.homeExperienceTitle, Experience.class));
         menuArrayList.add(new MenuListItem(R.string.homeSkillSetTitle, Temp.class));
         menuArrayList.add(new MenuListItem(R.string.homeProjectsTitle, Temp.class));
-        menuArrayList.add(new MenuListItem(R.string.homeHobbyAndInterestsTitle, Temp.class));
+        menuArrayList.add(new MenuListItem(R.string.homeHobbyAndInterestsTitle, HobbyAndInterest.class));
 
         ListView menuList = (ListView) findViewById(R.id.menuList);
         ArrayAdapter menuAdapter = new MenuListAdapter(this, menuArrayList);
