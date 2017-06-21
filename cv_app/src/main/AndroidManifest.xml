@@ -26,6 +26,10 @@
         </activity>
         <activity android:name=".Skills">
         </activity>
+        <activity android:name=".Projects">
+        </activity>
+        <activity android:name=".ProjectDetails">
+        </activity>
     </application>
 
 </manifest>
