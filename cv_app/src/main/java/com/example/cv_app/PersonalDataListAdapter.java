@@ -37,6 +37,7 @@ public class PersonalDataListAdapter extends ArrayAdapter
         TextView value = (TextView) convertView.findViewById(R.id.personalDataValue);
         value.setText(listItem.getValue());
 
+        convertView.setOnClickListener(null);
         return convertView;
     }
 }

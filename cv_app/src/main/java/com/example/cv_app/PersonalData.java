@@ -35,6 +35,5 @@ public class PersonalData extends AppCompatActivity
         ListView personalDataList = (ListView) findViewById(R.id.personalDataList);
         ArrayAdapter personalDataListAdapter = new PersonalDataListAdapter(this, personalData);
         personalDataList.setAdapter(personalDataListAdapter);
-        personalDataList.setEnabled(false);
     }
 }
