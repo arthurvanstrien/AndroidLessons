@@ -20,7 +20,7 @@
         android:id="@+id/introductionText"
         android:layout_width="187dp"
         android:layout_height="181dp"
-        android:text="@string/introductionText"
+        android:text="@string/homeIntroductionText"
         android:layout_marginRight="7dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

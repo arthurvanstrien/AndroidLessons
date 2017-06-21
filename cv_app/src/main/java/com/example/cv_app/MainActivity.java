@@ -1,28 +1,36 @@
 package com.example.cv_app;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import java.util.ArrayList;
 
-import static com.example.cv_app.R.id.parent;
-
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener
+public class MainActivity extends AppCompatActivity
 {
+    ArrayList<MenuListItem> menuArrayList = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        menuArrayList.add(new MenuListItem(R.string.homePersonalDataTitle, PersonalData.class));
+        menuArrayList.add(new MenuListItem(R.string.homeEducationTitle, Education.class));
+        menuArrayList.add(new MenuListItem(R.string.homeExperienceTitle, Temp.class));
+        menuArrayList.add(new MenuListItem(R.string.homeSkillSetTitle, Temp.class));
+        menuArrayList.add(new MenuListItem(R.string.homeProjectsTitle, Temp.class));
+        menuArrayList.add(new MenuListItem(R.string.homeHobbyAndInterestsTitle, Temp.class));
 
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id)
-    {
-        System.out.println(position);
+        ListView menuList = (ListView) findViewById(R.id.menuList);
+        ArrayAdapter menuAdapter = new MenuListAdapter(this, menuArrayList);
+        menuList.setAdapter(menuAdapter);
+        menuList.setOnItemClickListener((parent, view, position, id) ->
+        {
+            Intent intend = new Intent(getApplicationContext(), menuArrayList.get(position).getaClass());
+            startActivity(intend);
+        });
     }
 }
