@@ -36,9 +36,6 @@ public class MenuListAdapter extends ArrayAdapter
         TextView titleField = (TextView) convertView.findViewById(R.id.title);
         titleField.setText(menuListItem.getName());
 
-
-        //menuListView.setBackgroundColor();
-
         return convertView;
     }
 }
