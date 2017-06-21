@@ -29,12 +29,6 @@ public class SpotifyTask extends AsyncTask<String, Void, String>
     }
 
     @Override
-    protected String doInBackground(String... params)
-    {
-        //return??
-    }
-
-    @Override
     protected String doInBackground(String... params) {
         InputStream inputStream = null;
         BufferedReader reader = null;
