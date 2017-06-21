@@ -51,6 +51,7 @@ public class EducationListAdapter extends ArrayAdapter
         TextView educationStory = (TextView) convertView.findViewById(R.id.educationStory);
         educationStory.setText(listItem.getEducationStory());
 
+        convertView.setOnClickListener(null);
         return convertView;
     }
 }

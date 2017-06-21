@@ -26,6 +26,5 @@ public class Education extends AppCompatActivity
         ListView educationViewList = (ListView) findViewById(R.id.educationListView);
         ArrayAdapter educationListAdapter = new EducationListAdapter(this, educationList);
         educationViewList.setAdapter(educationListAdapter);
-        educationViewList.setEnabled(false);
     }
 }
