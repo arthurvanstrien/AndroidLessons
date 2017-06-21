@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity
 
         menuArrayList.add(new MenuListItem(R.string.homePersonalDataTitle, PersonalData.class));
         menuArrayList.add(new MenuListItem(R.string.homeEducationTitle, Education.class));
-        menuArrayList.add(new MenuListItem(R.string.homeExperienceTitle, Temp.class));
+        menuArrayList.add(new MenuListItem(R.string.homeExperienceTitle, Experience.class));
         menuArrayList.add(new MenuListItem(R.string.homeSkillSetTitle, Temp.class));
         menuArrayList.add(new MenuListItem(R.string.homeProjectsTitle, Temp.class));
         menuArrayList.add(new MenuListItem(R.string.homeHobbyAndInterestsTitle, Temp.class));

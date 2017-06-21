@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".Education">
         </activity>
+        <activity android:name=".Experience">
+        </activity>
     </application>
 
 </manifest>
