@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+cv_app/src/main/res/values-en/strings.xml
+cv_app/src/main/res/values/strings.xml
