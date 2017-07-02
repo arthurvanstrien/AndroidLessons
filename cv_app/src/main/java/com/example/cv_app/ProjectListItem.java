@@ -7,12 +7,18 @@ package com.example.cv_app;
 public class ProjectListItem
 {
     private int name;
+    private int description;
+    private int shortDescription;
     private String image;
+    private String icon;
 
-    public ProjectListItem(int name, String image)
+    public ProjectListItem(int name, int description, int shortDescription, String image, String icon)
     {
         this.name = name;
+        this.description = description;
+        this.shortDescription = shortDescription;
         this.image = image;
+        this.icon = icon;
     }
 
     public int getName()
@@ -20,8 +26,23 @@ public class ProjectListItem
         return name;
     }
 
+    public int getDescription()
+    {
+        return description;
+    }
+
+    public int getShortDescription()
+    {
+        return shortDescription;
+    }
+
     public String getImage()
     {
         return image;
+    }
+
+    public String getIcon()
+    {
+        return icon;
     }
 }
