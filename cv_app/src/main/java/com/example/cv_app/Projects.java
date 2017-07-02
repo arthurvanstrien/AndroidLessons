@@ -17,7 +17,12 @@ public class Projects extends AppCompatActivity
         getSupportActionBar().setTitle(R.string.projectsTitle);
 
         ArrayList<ProjectListItem> projectListItemArrayList = new ArrayList<>();
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameDoorbell, "Ze image"));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameWeatherStation, R.string.projectDescriptionWeatherStation, R.string.projectSDescriptionWeatherStation, "", ""));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameAGV, R.string.projectDescriptionAGV, R.string.projectSDescriptionAGV, "", ""));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameFestivalPlanner, R.string.projectDescriptionFestivalPlanner, R.string.projectSDescriptionFestivalPlanner, "", ""));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameInteractiveApp, R.string.projectDescriptionInteractiveApp, R.string.projectSDescriptionInteractiveApp, "", ""));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameCurriculumVitea, R.string.projectDescriptionCurriculumVitea, R.string.projectSDescriptionCurriculumVitea, "", ""));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameDoorbell, R.string.projectDescriptionDoorbell, R.string.projectSDescriptionDoorbell, "", ""));
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);
