@@ -40,6 +40,9 @@ public class ProjectListAdapter extends ArrayAdapter
         TextView projectName = (TextView) convertView.findViewById(R.id.projectListName);
         projectName.setText(projectListItem.getName());
 
+        TextView projectShortDescription = (TextView) convertView.findViewById(R.id.projectListDescription);
+        projectShortDescription.setText(projectListItem.getShortDescription());
+
         return convertView;
     }
 }
