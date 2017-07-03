@@ -1,6 +1,7 @@
 package com.example.cv_app;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +31,11 @@ public class PersonalDataListAdapter extends ArrayAdapter
         {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.personaldata_listview_row, parent, false);
         }
+
+        if((position % 2) > 0)
+            convertView.setBackgroundColor(Color.argb(255, 77, 208, 229));
+        else
+            convertView.setBackgroundColor(Color.argb(255, 57, 188, 209));
 
         TextView field = (TextView) convertView.findViewById(R.id.personalDataField);
         field.setText(listItem.getField());

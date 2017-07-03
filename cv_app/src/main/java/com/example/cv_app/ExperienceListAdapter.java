@@ -1,6 +1,7 @@
 package com.example.cv_app;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
@@ -31,6 +32,11 @@ public class ExperienceListAdapter extends ArrayAdapter
         {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.experience_listview_row, parent, false);
         }
+
+        if((position % 2) > 0)
+            convertView.setBackgroundColor(Color.argb(255, 77, 208, 229));
+        else
+            convertView.setBackgroundColor(Color.argb(255, 57, 188, 209));
 
         TextView startYear = (TextView) convertView.findViewById(R.id.experienceStartYear);
         startYear.setText(Integer.toString(listItem.getStartYear()));
