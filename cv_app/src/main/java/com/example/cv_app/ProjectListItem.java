@@ -9,10 +9,10 @@ public class ProjectListItem
     private int name;
     private int description;
     private int shortDescription;
-    private String image;
-    private String icon;
+    private int image;
+    private int icon;
 
-    public ProjectListItem(int name, int description, int shortDescription, String image, String icon)
+    public ProjectListItem(int name, int description, int shortDescription, int image, int icon)
     {
         this.name = name;
         this.description = description;
@@ -36,12 +36,12 @@ public class ProjectListItem
         return shortDescription;
     }
 
-    public String getImage()
+    public int getImage()
     {
         return image;
     }
 
-    public String getIcon()
+    public int getIcon()
     {
         return icon;
     }

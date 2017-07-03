@@ -17,12 +17,12 @@ public class Projects extends AppCompatActivity
         getSupportActionBar().setTitle(R.string.projectsTitle);
 
         ArrayList<ProjectListItem> projectListItemArrayList = new ArrayList<>();
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameWeatherStation, R.string.projectDescriptionWeatherStation, R.string.projectSDescriptionWeatherStation, "something", "something"));
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameAGV, R.string.projectDescriptionAGV, R.string.projectSDescriptionAGV, "something", "something"));
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameFestivalPlanner, R.string.projectDescriptionFestivalPlanner, R.string.projectSDescriptionFestivalPlanner, "something", "something"));
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameInteractiveApp, R.string.projectDescriptionInteractiveApp, R.string.projectSDescriptionInteractiveApp, "something", "something"));
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameCurriculumVitea, R.string.projectDescriptionCurriculumVitea, R.string.projectSDescriptionCurriculumVitea, "something", "something"));
-        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameDoorbell, R.string.projectDescriptionDoorbell, R.string.projectSDescriptionDoorbell, "something", "something"));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameWeatherStation, R.string.projectDescriptionWeatherStation, R.string.projectSDescriptionWeatherStation, R.drawable.ws_windspeed, R.drawable.ws_buitentemperatuur));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameAGV, R.string.projectDescriptionAGV, R.string.projectSDescriptionAGV, R.drawable.boebot_3, R.drawable.boebot_1));
+        //projectListItemArrayList.add(new ProjectListItem(R.string.projectNameFestivalPlanner, R.string.projectDescriptionFestivalPlanner, R.string.projectSDescriptionFestivalPlanner, "something", "something"));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameInteractiveApp, R.string.projectDescriptionInteractiveApp, R.string.projectSDescriptionInteractiveApp, R.drawable.coastercam, R.drawable.coastercam2));
+        //projectListItemArrayList.add(new ProjectListItem(R.string.projectNameCurriculumVitea, R.string.projectDescriptionCurriculumVitea, R.string.projectSDescriptionCurriculumVitea, "something", "something"));
+        projectListItemArrayList.add(new ProjectListItem(R.string.projectNameDoorbell, R.string.projectDescriptionDoorbell, R.string.projectSDescriptionDoorbell, R.drawable.p1420848, R.drawable.p1420846));
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);

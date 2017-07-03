@@ -1,6 +1,7 @@
 package com.example.cv_app;
 
 import android.content.Context;
+import android.graphics.drawable.Icon;
 import android.media.Image;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -35,7 +36,7 @@ public class ProjectListAdapter extends ArrayAdapter
         }
 
         ImageView image = (ImageView) convertView.findViewById(R.id.projectImage);
-        //image.setImageIcon();
+        image.setImageResource(projectListItem.getIcon());
 
         TextView projectName = (TextView) convertView.findViewById(R.id.projectListName);
         projectName.setText(projectListItem.getName());
