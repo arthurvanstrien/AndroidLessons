@@ -2,42 +2,43 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.cv_app.MainActivity"
-    android:background="@color/light_grey"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/turquoise"
+    tools:context="com.example.cv_app.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:id="@+id/introductionImage"
-        android:layout_width="183dp"
-        android:layout_height="185dp"
-        app:srcCompat="@drawable/arthur"
-        app:layout_constraintRight_toLeftOf="@+id/introductionText"
-        android:layout_marginRight="0dp"
-        android:layout_marginLeft="0dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="0dp"/>
+        app:srcCompat="@drawable/arthur"/>
 
     <TextView
         android:id="@+id/introductionText"
-        android:layout_width="187dp"
-        android:layout_height="169dp"
-        android:text="@string/homeIntroductionText"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="7dp"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/homeIntroductionText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/introductionImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ListView
         android:id="@+id/menuList"
-        android:layout_width="388dp"
+        android:layout_width="0dp"
         android:layout_height="330dp"
-        android:layout_marginTop="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introductionImage"
